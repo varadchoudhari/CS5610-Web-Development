@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 33.33%;
+}
+.content {
+    width: 66.66%;
+}
+#bottles {
+display:none;
+}
+#last {
+display:none;
+}

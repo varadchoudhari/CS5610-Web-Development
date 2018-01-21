@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix: {
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 33.33%;
+}
+
+.content {
+  width: 66.66%;
+}
+
+#bottles {
+  display:none;
+}
+
+#last {
+  display:none;
+}
+
+.menu li {
+  background-color: red;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Arial", Arial, serif;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
